@@ -3,8 +3,24 @@ const form = $('#search-form');
 const apiKey = '4941258feb233f44c3411edc79dafc06';
 const apiKeyGoogle = 'AIzaSyC_6vdS4q8F3Avr7FHynHJhV2o52lSkOcE'
 
-function getWeather(json){
-    console.log(json);
+function paintingWeather(weather){
+    console.log(weather);
+    const temperature = weather.temperature;
+    console.log(temperature);
+    const wind = weather.windSpeed;
+    console.log(wind);
+    const humidity = weather.humidity;
+    console.log(humidity);
+    const uv = weather.uvIndex;
+    console.log(uv);
+    const pressure = weather.pressure;
+    console.log(pressure);
+    //let temperature = weather.app
+}
+
+function getWeather(result){
+    const weather = result.currently;
+    paintingWeather(weather);
 }
 
 function weatherRequest(lng, lat) {
