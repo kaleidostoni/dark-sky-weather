@@ -3,6 +3,19 @@ const form = $('#search-form');
 const apiKey = '4941258feb233f44c3411edc79dafc06';
 const apiKeyGoogle = 'AIzaSyC_6vdS4q8F3Avr7FHynHJhV2o52lSkOcE'
 
+function getWeather(json){
+    console.log(json);
+}
+
+function weatherRequest(lng, lat) {
+
+    $.ajax({
+        url: `https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/${apiKey}/${lat},${lng}`
+    }).done(getWeather)
+        .fail(failedRequest)
+}
+
+
 function getCity(json) {
     const lng = json.results[0].geometry.location.lng;
     console.log(lng);
