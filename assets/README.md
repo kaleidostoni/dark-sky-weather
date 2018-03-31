@@ -1,4 +1,5 @@
 #DARK SKY WEATHER
+___
 
 ###APLICACIÓN DE CONSULTA DEL CLIMA 
 
@@ -14,5 +15,9 @@ Ambas peticiones se hicieron con Ajax.
 
 
 ![fireshot capture 1 - dark sky weather - https___kaleidostoni github io_dark-sky-weather_index html](https://user-images.githubusercontent.com/32855070/38160648-98d8745a-347e-11e8-88b2-2518498ef0b9.png)
+
+___
+***Desarrollado para < Laboratoria >***
+
 
 
