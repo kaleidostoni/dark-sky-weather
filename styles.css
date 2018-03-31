@@ -1,0 +1,19 @@
+.navbar{
+    height: 10vh;
+}
+
+.logo{
+    font-family: 'Julius Sans One', sans-serif;
+    margin-left: 2.5em;
+}
+
+body{
+    background-image: url(assets/images/city.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+}
+
+.weather-card{
+    background-color:rgba(205, 205, 209, 0.308);
+};

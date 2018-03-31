@@ -6,26 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <title>Dark Sky Weather</title>
 </head>
 
 <body>
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#!" class="brand-logo center">DARK SKY WEATHER</a>
-        </div>
-    </nav>
+    <section class="background">
+        <nav class="navbar ">
+            <div class="nav-wrapper row black">
+                <div class="col l7 s3">
+                    <a href="#!" class="brand-logo logo">DARK SKY WEATHER</a>
+                </div>
+          
+                <div class="col l5 s8">
+                    <form id="search-form" class="row">
+                        <div class="col l6 s4">
+                            <input id="search-input" type="text" name="search-input" required>
+                        </div>
+                        <input id="submit-btn" type="submit" value="SEARCH" class="waves-effect waves-light btn black">
+                </div>
+                </form>
+            </div>
+            </div>
+        </nav>
 
+
+        <!-- 
     <form id="search-form" class="row">
-        <div class="col l10">
-            <label for="search-input" class="visuallyhidden">Pokemon Search</label>
+        <div class="col l4">
+            <label for="search-input" class="visuallyhidden">Weather Search</label>
             <input id="search-input" type="text" name="search-input" required>
-        </div>
-        <div class="row space"></div>
-        <input id="submit-btn" type="submit" value="Submit" class="waves-effect waves-light btn-large  red accent-3">
-    </form>
+          </div>
+        <div class="col l2"><input id="submit-btn" type="submit" value="Submit" class="waves-effect waves-light btn-large gray"></div>
+    </form> -->
 
-    <section id="weather-container"></section>
+        <section id="weather-container" class="row">
+            <!-- <div class="row center">
+                        <div class="col s12 m6">
+                          <div class="card  weather-card">
+                            <div class="card-content white-text">
+                              <span class="card-title center">PARIS</span>
+                              <p class="center">Partly Cloudy</p>
+                              <h1 class="center">15 ºC</h1>
+                            </div>
+                            <div class="card-action">
+                            <h5>Wind 5.4</h5>
+                            <h5>Wind 5.4</h5>
+                            <h5>Wind 5.4</h5>
+                            <h5>Wind 5.4</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div> -->
+        </section>
+
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
