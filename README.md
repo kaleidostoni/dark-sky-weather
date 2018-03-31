@@ -1,7 +1,7 @@
-#DARK SKY WEATHER
+# DARK SKY WEATHER
 ___
 
-###APLICACIÓN DE CONSULTA DEL CLIMA 
+### APLICACIÓN DE CONSULTA DEL CLIMA 
 
 Para la elaboración de Dark Sky Weather App se utilizaron dos APIs:
 
